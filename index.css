@@ -1,0 +1,30 @@
+#board {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-family: "Chalkboard";
+}
+
+.row {
+  background: white;
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.square {
+  width: 30%;
+  background: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10rem;
+}
+
+.square:hover {
+  background: darkgray;
+  cursor: pointer;
+}
